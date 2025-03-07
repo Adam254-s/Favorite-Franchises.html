@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
+  border-radius: 12px 12px 0px 0px;
 }
 body {
   min-height: 120vh;
@@ -61,29 +62,13 @@ body {
   color: white;
   max-width: 1200px;
   border-radius: 10px;
-  border-color: lightblue;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s ease, background 0.3s ease;
   animation: fadeIn 1s ease both;
   position: relative;
   z-index: 1;
-}
-
-.card2 {
-  width: 90%;
-  margin: 20px auto;
-  padding: 20px;
-  background: #1e293b;
-  color: white;
-  max-width: 1200px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  transition: transform 0.3s ease, background 0.3s ease;
-  animation: fadeIn 1s ease both;
-  position: relative;
-  z-index: 1;
+  border: solid 2px lightblue;
 }
 
 .card:hover {
